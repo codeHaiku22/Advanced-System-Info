@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AdvSysInfo"
         mc:Ignorable="d"
-        Title="AdvSysInfo" Height="1040" Width="1920">
+        Title="AdvSysInfo" Height="1040" Width="1920" WindowState="Maximized">
     <Viewbox>
         <Grid Background="WhiteSmoke">
             <Grid x:Name="grdSysInfo" Height="300" VerticalAlignment="Top">
