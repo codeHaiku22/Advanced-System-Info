@@ -1,0 +1,16 @@
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\bin\Release\AdvSysInfo.exe.config
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\bin\Release\AdvSysInfo.exe
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\bin\Release\AdvSysInfo.pdb
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\bin\Release\AdvSysInfo.xml
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\MainWindow.g.vb
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\Application.g.vb
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\AdvSysInfo_MarkupCompile.cache
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\AdvSysInfo_MarkupCompile.lref
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\MainWindow.baml
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\AdvSysInfo.g.resources
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\AdvSysInfo.Resources.resources
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\AdvSysInfo.vbproj.GenerateResource.cache
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\AdvSysInfo.vbproj.CoreCompileInputs.cache
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\AdvSysInfo.exe
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\AdvSysInfo.xml
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Release\AdvSysInfo.pdb

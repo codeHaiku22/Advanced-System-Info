@@ -1,0 +1,17 @@
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\bin\Debug\AdvSysInfo.exe.config
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\bin\Debug\AdvSysInfo.exe
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\bin\Debug\AdvSysInfo.pdb
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\bin\Debug\AdvSysInfo.xml
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\AdvSysInfo.vbprojAssemblyReference.cache
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\MainWindow.g.vb
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\Application.g.vb
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\AdvSysInfo_MarkupCompile.cache
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\AdvSysInfo_MarkupCompile.lref
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\MainWindow.baml
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\AdvSysInfo.g.resources
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\AdvSysInfo.Resources.resources
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\AdvSysInfo.vbproj.GenerateResource.cache
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\AdvSysInfo.vbproj.CoreCompileInputs.cache
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\AdvSysInfo.exe
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\AdvSysInfo.xml
+C:\Users\dgrewal\Documents\My Projects\Development\AdvSysInfo\AdvSysInfo\obj\Debug\AdvSysInfo.pdb
