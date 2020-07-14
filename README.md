@@ -4,7 +4,7 @@ A tool that uses WMI, XAML, WPF, and VB.Net to generate a thorough system overvi
 
 Information Generated:
 - System manufacturer
-- OS Manufacturer, type, version, install date
+- OS manufacturer, type, version, install date
 - Physical drives, manufacturer, and size
 - Last reboot time and uptime
 - CPUs, cores and usage
@@ -12,6 +12,6 @@ Information Generated:
 - Hard drives volume name, file system, and usage
 - Installed applications
 - Running processes
-- List of System and Device Driver services
+- List of system and device driver services
 - Event logs with filtration
 - Open files and folders
