@@ -1,5 +1,4 @@
 ﻿Module CommonCode
-
     Public Function CalculateBestByteSize(ByVal lngBytes As Long, Optional blnMetric As Boolean = False) As String
 
         Try
@@ -11,15 +10,15 @@
                     Case < 1000
                         strBestByteSize = lngBytes.ToString & "B"
                     Case < 1000000
-                        strBestByteSize = Format(lngBytes / 1000, "#,###,###") & "KB"
+                        strBestByteSize = Format(lngBytes / 1000, "#,###,###.0") & "KB"
                     Case < 1000000000
-                        strBestByteSize = Format(lngBytes / 1000000, "#,###,###") & "MB"
+                        strBestByteSize = Format(lngBytes / 1000000, "#,###,###.0") & "MB"
                     Case < 1000000000000
-                        strBestByteSize = Format(lngBytes / 1000000000, "#,###,###") & "GB"
+                        strBestByteSize = Format(lngBytes / 1000000000, "#,###,###.0") & "GB"
                     Case < 1000000000000000
-                        strBestByteSize = Format(lngBytes / 1000000000000, "#,###,###") & "TB"
+                        strBestByteSize = Format(lngBytes / 1000000000000, "#,###,###.0") & "TB"
                     Case < 1000000000000000000
-                        strBestByteSize = Format(lngBytes / 1000000000000000, "#,###,###") & "PB"
+                        strBestByteSize = Format(lngBytes / 1000000000000000, "#,###,###.0") & "PB"
                     Case Else
                         strBestByteSize = ""
                 End Select
@@ -28,15 +27,15 @@
                     Case < 1024
                         strBestByteSize = lngBytes.ToString & "B"
                     Case < 1048576
-                        strBestByteSize = Format(lngBytes / 1024, "#,###,###") & "KB"
+                        strBestByteSize = Format(lngBytes / 1024, "#,###,###.0") & "KB"
                     Case < 1073741824
-                        strBestByteSize = Format(lngBytes / 1048576, "#,###,###") & "MB"
+                        strBestByteSize = Format(lngBytes / 1048576, "#,###,###.0") & "MB"
                     Case < 1099511627776
-                        strBestByteSize = Format(lngBytes / 1073741824, "#,###,###") & "GB"
+                        strBestByteSize = Format(lngBytes / 1073741824, "#,###,###.0") & "GB"
                     Case < 1125899906842624
-                        strBestByteSize = Format(lngBytes / 1099511627776, "#,###,###") & "TB"
+                        strBestByteSize = Format(lngBytes / 1099511627776, "#,###,###.0") & "TB"
                     Case < 1152921504606846976
-                        strBestByteSize = Format(lngBytes / 1125899906842624, "#,###,###") & "PB"
+                        strBestByteSize = Format(lngBytes / 1125899906842624, "#,###,###.0") & "PB"
                     Case Else
                         strBestByteSize = ""
                 End Select
