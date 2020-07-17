@@ -10,12 +10,12 @@
         <Grid Background="WhiteSmoke">
             <Grid x:Name="grdSysInfo" Height="300" VerticalAlignment="Top">
                 <Grid x:Name="grdSpecs" Height="300" Width="500" VerticalAlignment="Top" HorizontalAlignment="Left">
-                    <Label Content="Server Name/IP:" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="txtServerNameIP" HorizontalAlignment="Left" Height="23" Margin="108,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302"/>
+                    <Label Content="Host Name/IP:" HorizontalAlignment="Left" Height="28" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtServerNameIP" HorizontalAlignment="Left" Height="28" Margin="108,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="302"/>
                     <Label x:Name="lblServerNameIP" Content="lblServerNameIP" HorizontalAlignment="Left" Margin="108,34,0,0" VerticalAlignment="Top"/>
-                    <Button x:Name="cmdScan" Content="Scan" HorizontalAlignment="Left" Margin="415,10,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
+                    <Button x:Name="cmdScan" Content="Scan" HorizontalAlignment="Left" Margin="415,12,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
                     <GroupBox Header="System Specs" HorizontalAlignment="Left" Height="225" Margin="10,65,0,0" VerticalAlignment="Top" Width="480" Background="White">
-                        <ListBox x:Name="lbxDetails" HorizontalAlignment="Left" Height="200" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="465" BorderBrush="White"/>
+                        <ListBox x:Name="lbxDetails" HorizontalAlignment="Left" Height="200" Margin="0,0,0,0" VerticalAlignment="Bottom" Width="465" BorderBrush="White" FontSize="12"/>
                     </GroupBox>
                 </Grid>
                 <GroupBox Header="Processor" HorizontalAlignment="Left" Height="210" Margin="500,5,0,0" VerticalAlignment="Top" Width="320" Padding="5" Background="White">
@@ -31,7 +31,7 @@
                     </ScrollViewer>
                 </GroupBox>
                 <GroupBox Header="Memory" HorizontalAlignment="Left" Height="65" Margin="500,225,0,0" VerticalAlignment="Top" Width="320" Padding="5" Background="White">
-                    <Grid x:Name="grdMem" Height="45" Width="305" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,-6,-6.6,-7">
+                    <Grid x:Name="grdMem" Height="45" Width="305" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,0,0,0">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition></ColumnDefinition>
                         </Grid.ColumnDefinitions>
@@ -64,22 +64,22 @@
                     <Grid Background="#FFE5E5E5">
                         <StackPanel x:Name="stkpnlApplications" Orientation="Vertical">
                             <StackPanel x:Name="stkpnlApplicationsCriteria" Orientation="Horizontal">
-                                <GroupBox x:Name="grpApplicationName" Header="Application" HorizontalAlignment="Left" Height="55" Margin="10,10,0,0" VerticalAlignment="Top" Width="340">
+                                <GroupBox x:Name="grpApplicationName" Header="Application" HorizontalAlignment="Left" Height="65" Margin="10,10,0,0" VerticalAlignment="Top" Width="340">
                                     <StackPanel x:Name="stkpnlApplicationName" Orientation="Horizontal">
                                         <Label Content="Name:" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top"/>
                                         <TextBox x:Name="txtApplicationName" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="250"/>
                                     </StackPanel>
                                 </GroupBox>
-                                <GroupBox x:Name="grpBit" Header="Environment" HorizontalAlignment="Left" Height="55" Margin="25,10,0,0" VerticalAlignment="Top" Width="155">
+                                <GroupBox x:Name="grpBit" Header="Environment" HorizontalAlignment="Left" Height="65" Margin="25,10,0,0" VerticalAlignment="Top" Width="165">
                                     <StackPanel x:Name="stkpnlBit" Orientation="Horizontal">
                                         <CheckBox x:Name="chk32Bit" Content="32-Bit" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
                                         <CheckBox x:Name="chk64Bit" Content="64-Bit" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top"/>
                                     </StackPanel>
                                 </GroupBox>                                
-                                <Button x:Name="cmdSearchApplications" Content="Search" HorizontalAlignment="Left" Margin="25,31,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
-                                <Label x:Name="lblApplicationsCount" Content="" HorizontalAlignment="Left" Margin="25,31,0,0" VerticalAlignment="Top"/>
+                                <Button x:Name="cmdSearchApplications" Content="Search" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
+                                <Label x:Name="lblApplicationsCount" Content="" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top"/>
                             </StackPanel>
-                            <DataGrid x:Name="dtgrdApplications" HorizontalAlignment="Left" Height="557" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859" ItemsSource="{Binding}"/>
+                            <DataGrid x:Name="dtgrdApplications" HorizontalAlignment="Left" Height="547" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859" ItemsSource="{Binding}"/>
                         </StackPanel>
                     </Grid>
                 </TabItem>                
@@ -87,16 +87,16 @@
                     <Grid Background="#FFE5E5E5">
                         <StackPanel x:Name="stkpnlProcesses" Orientation="Vertical">
                             <StackPanel x:Name="stkpnlProcessesCriteria" Orientation="Horizontal">
-                                <GroupBox x:Name="grpProcessName" Header="Processes Filter" HorizontalAlignment="Left" Height="55" Margin="10,10,0,0" VerticalAlignment="Top" Width="340">
+                                <GroupBox x:Name="grpProcessName" Header="Processes Filter" HorizontalAlignment="Left" Height="65" Margin="10,10,0,0" VerticalAlignment="Top" Width="350">
                                     <StackPanel x:Name="stkpnlProcessName" Orientation="Horizontal">
                                         <Label Content="Name:" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top"/>
                                         <TextBox x:Name="txtProcessName" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="250"/>
                                     </StackPanel>
                                 </GroupBox>
-                                <Button x:Name="cmdSearchProcesses" Content="Search" HorizontalAlignment="Left" Margin="25,31,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
-                                <Label x:Name="lblProcessesCount" Content="" HorizontalAlignment="Left" Margin="25,31,0,0" VerticalAlignment="Top"/>
+                                <Button x:Name="cmdSearchProcesses" Content="Search" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
+                                <Label x:Name="lblProcessesCount" Content="" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top"/>
                             </StackPanel>
-                            <DataGrid x:Name="dtgrdProcesses" HorizontalAlignment="Left" Height="557" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859" ItemsSource="{Binding}"/>
+                            <DataGrid x:Name="dtgrdProcesses" HorizontalAlignment="Left" Height="547" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859" ItemsSource="{Binding}"/>
                         </StackPanel>
                     </Grid>
                 </TabItem>
@@ -104,29 +104,29 @@
                     <Grid Background="#FFE5E5E5">
                         <StackPanel x:Name="stkpnlServices" Orientation="Vertical">
                             <StackPanel x:Name="stkpnlServicesCriteria" Orientation="Horizontal">
-                                <GroupBox x:Name="grpServiceType" Header="Service Type" HorizontalAlignment="Left" Height="55" Margin="10,10,0,0" VerticalAlignment="Top" Width="195">
+                                <GroupBox x:Name="grpServiceType" Header="Service Type" HorizontalAlignment="Left" Height="65" Margin="10,10,0,0" VerticalAlignment="Top" Width="220">
                                     <StackPanel x:Name="stkpnlServiceType" Orientation="Horizontal">
                                         <RadioButton x:Name="rbGeneral" Content="General" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" GroupName="serviceType"/>
                                         <RadioButton x:Name="rbDeviceDriver" Content="Device Driver" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" GroupName="serviceType"/>
                                     </StackPanel>
                                 </GroupBox>
-                                <GroupBox x:Name="grpServiceStatus" Header="Status" HorizontalAlignment="Left" Height="55" Margin="25,10,0,0" VerticalAlignment="Top" Width="175">
+                                <GroupBox x:Name="grpServiceStatus" Header="Status" HorizontalAlignment="Left" Height="65" Margin="25,10,0,0" VerticalAlignment="Top" Width="200">
                                     <StackPanel x:Name="stkpnlServiceStatus" Orientation="Horizontal">
                                         <CheckBox x:Name="chkRunning" Content="Running" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
                                         <CheckBox x:Name="chkStopped" Content="Stopped" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top"/>
                                     </StackPanel>
                                 </GroupBox>
-                                <GroupBox x:Name="grpStartup" Header="Startup" HorizontalAlignment="Left" Height="55" Margin="25,10,0,0" VerticalAlignment="Top" Width="270">
+                                <GroupBox x:Name="grpStartup" Header="Startup" HorizontalAlignment="Left" Height="65" Margin="25,10,0,0" VerticalAlignment="Top" Width="305">
                                     <StackPanel x:Name="stkpnlStartup" Orientation="Horizontal">
                                         <CheckBox x:Name="chkAutomatic" Content="Automatic" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
                                         <CheckBox x:Name="chkManual" Content="Manual" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top"/>
                                         <CheckBox x:Name="chkDisabled" Content="Disabled" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top"/>
                                     </StackPanel>
                                 </GroupBox>
-                                <Button x:Name="cmdSearchServices" Content="Search" HorizontalAlignment="Left" Margin="25,31,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
-                                <Label x:Name="lblServicesCount" Content="" HorizontalAlignment="Left" Margin="25,31,0,0" VerticalAlignment="Top"/>
+                                <Button x:Name="cmdSearchServices" Content="Search" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
+                                <Label x:Name="lblServicesCount" Content="" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top"/>
                             </StackPanel>
-                            <DataGrid x:Name="dtgrdServices" HorizontalAlignment="Left" Height="557" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859" ItemsSource="{Binding}"/>
+                            <DataGrid x:Name="dtgrdServices" HorizontalAlignment="Left" Height="547" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859" ItemsSource="{Binding}"/>
                         </StackPanel>
                     </Grid>
                 </TabItem>
@@ -134,13 +134,13 @@
                     <Grid Background="#FFE5E5E5">
                         <StackPanel x:Name="stkpnlEventLogs" Orientation="Vertical">
                             <StackPanel x:Name="stkpnlEventLogCriteria" Orientation="Horizontal">
-                                <GroupBox x:Name="grpEventLogType" Header="Event Log Type" HorizontalAlignment="Left" Height="55" Margin="10,10,0,0" VerticalAlignment="Top" Width="267">
+                                <GroupBox x:Name="grpEventLogType" Header="Event Log Type" HorizontalAlignment="Left" Height="65" Margin="10,10,0,0" VerticalAlignment="Top" Width="300">
                                     <StackPanel x:Name="stkpnlEventLogType" Orientation="Horizontal">
                                         <RadioButton x:Name="rbApplication" Content="Application Events" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" GroupName="logType"/>
                                         <RadioButton x:Name="rbSystem" Content="System Events" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top" GroupName="logType"/>
                                     </StackPanel>
                                 </GroupBox>
-                                <GroupBox x:Name="grpEventLevel" Header="Event Level" HorizontalAlignment="Left" Height="55" Margin="25,10,0,0" VerticalAlignment="Top" Width="424">
+                                <GroupBox x:Name="grpEventLevel" Header="Event Level" HorizontalAlignment="Left" Height="65" Margin="25,10,0,0" VerticalAlignment="Top" Width="470">
                                     <StackPanel x:Name="stkpnlEventLevel" Orientation="Horizontal">
                                         <CheckBox x:Name="chkCritical" Content="Critical" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
                                         <CheckBox x:Name="chkWarning" Content="Warning" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top"/>
@@ -149,7 +149,7 @@
                                         <CheckBox x:Name="chkInformation" Content="Information" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top"/>
                                     </StackPanel>
                                 </GroupBox>
-                                <GroupBox x:Name="grpDateRange" Header="Date Range" HorizontalAlignment="Left" Height="55" Margin="25,10,0,0" VerticalAlignment="Top" Width="390">
+                                <GroupBox x:Name="grpDateRange" Header="Date Range" HorizontalAlignment="Left" Height="65" Margin="25,10,0,0" VerticalAlignment="Top" Width="425">
                                     <StackPanel x:Name="stkpnlDateRange" Orientation="Horizontal">
                                         <Label Content="From Date:" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top"/>
                                         <DatePicker x:Name="dtpFromDate" HorizontalAlignment="Left" Margin="0,5,0,0" VerticalAlignment="Top"/>
@@ -157,10 +157,10 @@
                                         <DatePicker x:Name="dtpToDate" HorizontalAlignment="Left" Margin="0,5,0,0" VerticalAlignment="Top"/>
                                     </StackPanel>
                                 </GroupBox>
-                                <Button x:Name="cmdSearchEventLogs" Content="Search" HorizontalAlignment="Left" Margin="25,31,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
-                                <Label x:Name="lblEventLogCount" Content="" HorizontalAlignment="Left" Margin="25,31,0,0" VerticalAlignment="Top"/>
+                                <Button x:Name="cmdSearchEventLogs" Content="Search" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top" Width="75" Height="23"/>
+                                <Label x:Name="lblEventLogCount" Content="" HorizontalAlignment="Left" Margin="25,35,0,0" VerticalAlignment="Top"/>
                             </StackPanel>
-                            <DataGrid x:Name="dtgrdEventLogs" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859" ItemsSource="{Binding}"/>
+                            <DataGrid x:Name="dtgrdEventLogs" HorizontalAlignment="Left" Height="390" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859" ItemsSource="{Binding}"/>
                             <GroupBox x:Name="grpEventDetails" Header="Event Details" HorizontalAlignment="Left" Height="155" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859">
                                 <StackPanel x:Name="stkpnlEventDetails" Orientation="Vertical">
                                     <StackPanel x:Name="stkpnlEventDetails1" Orientation="Horizontal">
@@ -188,7 +188,7 @@
                     <Grid Background="#FFE5E5E5">
                         <StackPanel x:Name="stkpnlOpenFiles" Orientation="Vertical">
                             <StackPanel x:Name="stkpnlOpenFilesCriteria" Orientation="Horizontal">
-                                <GroupBox x:Name="grpFilter" Header="Open Files Filter" HorizontalAlignment="Left" Height="90" Margin="10,10,0,0" VerticalAlignment="Top" Width="500">
+                                <GroupBox x:Name="grpFilter" Header="Open Files Filter" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="510">
                                     <StackPanel x:Name="stkpnlFilter" Orientation="Horizontal">
                                         <StackPanel x:Name="stkpnlFields" Orientation="Vertical">
                                             <StackPanel x:Name="stkpnlAccessedBy" Orientation="Horizontal">
@@ -206,10 +206,10 @@
                                         </StackPanel>
                                     </StackPanel>
                                 </GroupBox>
-                                <Button x:Name="cmdSearchOpenFiles" Content="Search" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Center" Width="75" Height="23"/>
-                                <Label x:Name="lblOpenFilesCount" Content="" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Center"/>                                
+                                <Button x:Name="cmdSearchOpenFiles" Content="Search" HorizontalAlignment="Left" Margin="25,20,0,0" VerticalAlignment="Center" Width="75" Height="23"/>
+                                <Label x:Name="lblOpenFilesCount" Content="" HorizontalAlignment="Left" Margin="25,20,0,0" VerticalAlignment="Center"/>                                
                             </StackPanel>
-                            <DataGrid x:Name="dtgrdOpenFiles" HorizontalAlignment="Left" Height="525" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859" ItemsSource="{Binding}"/>
+                            <DataGrid x:Name="dtgrdOpenFiles" HorizontalAlignment="Left" Height="515" Margin="10,10,0,0" VerticalAlignment="Top" Width="1859" ItemsSource="{Binding}"/>
                         </StackPanel>
                     </Grid>                    
                 </TabItem>
