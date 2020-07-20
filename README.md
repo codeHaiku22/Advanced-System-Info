@@ -15,3 +15,5 @@ Information Generated:
 - List of system and device driver services
 - Event logs with filtration
 - Open files and folders
+
+![screenshot](screenshot.png)
